@@ -11,16 +11,22 @@ Plusieurs tutoriel sous-forme de FabLab
 
 
 ## Les branches
-
-* <h2>![](https://scontent-cdg2-1.xx.fbcdn.net/v/t34.0-12/25463800_154348192001575_920378610_n.png?oh=7799fd9fd1f4d177a28c5c83b3805efc&oe=5A380527) FabLab_N1_SpringMVC</h2>
-	* Projet MVC : Gestion des utilisateurs et produits
-		* Les fonctionnalités : 
-			* Produit (id,designation,prix,quantite): `Ajouter` , `supprimer` , `editer`, `chercher` ..
-			* Utilisateur(id,nom,email,password): `inscription`,`authentification`,`achater un ou plusieurs produits` .
-		* Les technologies: 
-			* Couche web : Thymeleaf,Bootstrap, HTML 
-			* Couche data : Mysql,HQL
-			* Couche metier : Spring boot
+<ul>
+<li><h2>FabLab_N1_SpringMVC</h2>
+<ul>	
+<H3>Projet MVC : Gestion des utilisateurs et produits</H3>
+<li>Les fonctionnalités :</li>
+	<ul> 
+	  <li> Produit (id,designation,prix,quantite): `Ajouter` , `supprimer` , `editer`, `chercher` ..</li>
+	  <li>Utilisateur(id,nom,email,password): `inscription`,`authentification`,`achater un ou plusieurs produits`</li>
+	  <li>Les technologies:</li>
+		<ul> 
+			<li>Couche web : Thymeleaf,Bootstrap, HTML </li>
+			<li>Couche data : Mysql,HQL</li>
+			<li>Couche metier : Spring boot</li>
+		</ul>
+	</ul>
+</ul>
 
 ````bash
 git clone -b FabLab_N1_SpringMVC  https://github.com/abdnet/FabLab-J2EE.git
