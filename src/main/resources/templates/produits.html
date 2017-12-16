@@ -21,6 +21,7 @@
 				<th>Designation</th>
 				<th>Prix</th>
 				<th>Quantite</th>
+				<th>Actions</th>
 			</tr>
 			
 		</thead>
@@ -31,6 +32,11 @@
 				<td th:text="${p.designation}"></td>
 				<td th:text="${p.prix}"></td>
 				<td th:text="${p.quantite}"></td>
+				<td>
+					<a th:href="@{ editer( id=${ p.id } ) }" class="btn btn-success btn-xs">Editer</a>
+					<a onclick="return confirm('Ok ou pas ok ?')" th:href="@{ delete( id=${ p.id } ,mc=${ motCle } , page=${ currentp } ) }" class="btn btn-danger btn-xs">Supprimer</a>
+				</td>
+				
 			</tr>
 		</tbody>
 	</table>

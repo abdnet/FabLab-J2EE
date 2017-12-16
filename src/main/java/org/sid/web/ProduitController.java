@@ -11,6 +11,7 @@ import org.springframework.data.domain.PageRequest;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 
 import scala.annotation.meta.setter;
@@ -33,6 +34,11 @@ public class ProduitController {
 		model.addAttribute("currentp",p);
 		model.addAttribute("motCle",mc);
 		return "produits";
+	}
+	@RequestMapping(value="/delete",method=RequestMethod.GET)
+	public String delete(Long id,String mc , int page){
+		produitRepository.delete(id);
+		return "redirect:/index?mc="+mc+"&page="+page;
 	}
 
 }
