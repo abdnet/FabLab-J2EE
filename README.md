@@ -12,7 +12,7 @@ Plusieurs tutoriel sous-forme de FabLab
 
 ## Les branches
 <ul>
-<li><h2>FabLab_N1_SpringMVC</h2>
+<li><h2>FabLab n° 1</h2>
 
 ````bash
 git clone -b FabLab_N1_SpringMVC  https://github.com/abdnet/FabLab-J2EE.git
