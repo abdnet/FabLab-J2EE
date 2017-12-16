@@ -7,8 +7,8 @@
 -->
 Plusieurs tutoriel sous-forme de FabLab 
 
-![](https://spring.io/img/homepage/icon-spring-framework.svg)
 
+<img src = "https://spring.io/img/homepage/icon-spring-framework.svg" title = "SpringBoot" alt = "Spring">
 
 ## Les branches
 <ul>
