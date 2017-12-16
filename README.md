@@ -5,10 +5,10 @@
 #[![Build Status][travis-image]][travis-url]
 #[![Downloads Stats][npm-downloads]][npm-url]
 -->
-Plusieurs tutoriel sous-forme de FabLab 
+Plusieurs tutoriels sous-forme de FabLab 
 
 
-<img src = "https://spring.io/img/homepage/icon-spring-framework.svg" title = "SpringBoot" alt = "Spring">
+
 
 ## Les branches
 <ul>
