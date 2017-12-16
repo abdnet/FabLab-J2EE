@@ -13,6 +13,9 @@ Plusieurs tutoriel sous-forme de FabLab
 ## Les branches
 <ul>
 <li><h2>FabLab_N1_SpringMVC</h2>
+````bash
+git clone -b FabLab_N1_SpringMVC  https://github.com/abdnet/FabLab-J2EE.git
+````
 <ul>	
 <H3>Projet MVC : Gestion des utilisateurs et produits</H3>
 <li>Les fonctionnalités :</li>
@@ -28,9 +31,7 @@ Plusieurs tutoriel sous-forme de FabLab
 	</ul>
 </ul>
 
-````bash
-git clone -b FabLab_N1_SpringMVC  https://github.com/abdnet/FabLab-J2EE.git
-````
+
 
 ## Contact
 
